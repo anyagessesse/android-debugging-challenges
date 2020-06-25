@@ -1,9 +1,11 @@
 package com.codepath.debuggingchallenges.activities;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 import com.codepath.debuggingchallenges.R;
 
@@ -15,6 +17,7 @@ public class ChangeBackgroundActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_background);
+
     }
 
     public void onGoClick(View view) {
